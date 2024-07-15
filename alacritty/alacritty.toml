@@ -1,0 +1,33 @@
+#import = [ "~/.config/alacritty/themes/themes/zenburn.yaml" ]
+
+shell = "/usr/bin/fish"
+
+[window]
+decorations = "transparent"
+opacity = 0.62
+startup_mode = "SimpleFullscreen"
+title = "HellGate"
+option_as_alt = "OnlyLeft"
+
+  [window.dimensions]
+  columns = 140
+  lines = 40
+
+[font]
+size = 9
+
+  [font.normal]
+  family = "CaskaydiaCove Nerd Font Mono"
+  style= "semibold"
+
+  [font.bold]
+  family = "CaskaydiaCove Nerd Font Mono"
+  style = "bold"
+
+  [font.italic]
+  family = "CaskaydiaCove Nerd Font Mono"
+  style = "italic"
+
+  [font.bold_italic]
+  family = "CaskaydiaCove Nerd Font Mono"
+  style= "extralight"
